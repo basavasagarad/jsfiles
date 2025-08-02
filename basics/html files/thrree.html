@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>third file</title>
+</head>
+<body style="background-color: black;color: white;">
+    
+</body>
+<script>
+   const ele= document.createElement('div')
+   console.log(ele);
+   ele.className="new"
+   ele.id=Math.round(Math.random() *10+1)
+   ele.setAttribute("title","creating Element")
+   ele.style.backgroundColor="red"
+   ele.style.padding="20px"
+   //ele.innerText="here is my first html"
+   //another way to enter text
+   const addtext=document.createTextNode("Here is my html code")
+   ele.appendChild(addtext)
+   document.body.append(ele)
+</script> 
+</html>
