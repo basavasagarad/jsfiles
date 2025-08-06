@@ -1,0 +1,22 @@
+.container {
+  height: 825px;;
+    text-align: center;
+  background-color: #797978;
+  padding-left: 30px;
+}
+#height,#weight{
+    width: 150px;
+    height: 30px;
+    
+}
+#results{
+    font-size: 50px;
+    margin: 30px;
+    color: aliceblue;
+}
+button{
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 10px;
+}

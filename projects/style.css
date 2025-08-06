@@ -1,0 +1,29 @@
+h2{text-align: center;}
+
+.button{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-block;
+}
+#pink{
+    background-color: rgb(241, 5, 115);
+}
+#red{
+    background-color: red;
+}
+#Blue{
+    background-color: blue;
+}
+#Green{
+    background-color: green;
+}
+h3{
+    text-align: center;
+}
+.canvas {
+  margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+}
